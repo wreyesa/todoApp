@@ -15,18 +15,14 @@ Asegúrate de tener las siguientes herramientas instaladas:
 ### 1. Clonar el repositorio
 
 Clona este repositorio en tu máquina local:
+- git clone https://github.com/wreyesa/todoApp.git
+- cd todoApp
 
-```bash
-git clone https://github.com/wreyesa/todoApp.git
-cd todoApp
-
-
----
 
 ### 2. **Explicación adicional sobre la base de datos**
 
 1. **Conexión a la base de datos:**
-   En tu archivo `db.js`, ya tienes configurada la conexión a MySQL usando `mysql2/promise`. Asegúrate de que todos los que utilicen el proyecto tengan acceso a la base de datos y configuren correctamente los parámetros de conexión en el archivo `.env`.
+   En tu archivo `db.js`, está la configuración a la conexión a MySQL usando `mysql2/promise`. Asegúrate de que todos los que utilicen el proyecto tengan acceso a la base de datos y configuren correctamente los parámetros de conexión en el archivo `.env`.
 
 2. **SQL para crear las tablas:**
    Instrucciones para crear la base de datos y las tablas necesarias.
@@ -41,5 +37,4 @@ cd todoApp
     createAt TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
 );
 
----
 
